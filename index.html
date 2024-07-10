@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentera House</title>
+    <link href="/assets/css/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .gp {
+            margin-right: 10px;
+          }
+
+          .text-community {
+            margin-right: 20px;
+          }
+    </style>
+</head>
+
+<body class="font-sans">
+    <!-- Navbar -->
+    <header class="bg-white top-0 left-0 w-full flex items-center z-10 lg:mx-auto">
+        <div class="container">
+            <div class="flex items-center justify-between relative my-2 lg:mx-auto">
+                <div class="flex items-center">
+                    <a href="#home"><img src="assets/images/logo.png" width="50px" alt=""></a>
+                </div>
+                <div class="flex items-center">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span
+                            class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out"></span>
+                        <span
+                            class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[240px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-third py-2 mx-8 flex transition duration-300 ease-in-out group-hover:text-black lg:mx-5">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="text-base text-third py-2 mx-8 flex transition duration-300 ease-in-out group-hover:text-black lg:mx-5">Location</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="text-base text-third py-2 flex mx-8 transition duration-300 ease-in-out group-hover:text-black lg:mx-5">Success</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="text-base text-third py-2 flex mx-8 transition duration-300 ease-in-out group-hover:text-black lg:mx-5">Features</a>
+                            </li>
+                            <li class="group">
+                                <a href="#"
+                                    class="text-base text-third py-2 flex mx-8 transition duration-300 ease-in-out group-hover:text-black lg:mx-5">Account</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar -->
+
+    <!-- Hero -->
+    <section id="home" class="mt-10">
+        <div class="lg:mx-auto">
+            <div class="flex flex-wrap">
+                <div class="self-start mt-10 w-full px-5 lg:pl-36 lg:w-1/2 lg:mt-5">
+                    <h1 class="font-semibold text-black text-3xl lg:text-4xl mb-4">
+                        We have thousand <br> of your dream home
+                    </h1>
+                    <p class="font-normal text-sm text-third">
+                        A light that will guide you to find what you’ve <br> been looking for long long time ago
+                    </p>
+                    <div class="flex mt-10">
+                        <div class="mr-4 lg:mr-8">
+                            <h1 class="text-2xl font-medium">18<span class="text-primary">K</span></h1>
+                            <p class="text-base font-normal text-third">apartemen</p>
+                        </div>
+                        <div class="mr-4 lg:mr-8">
+                            <h1 class="text-2xl font-medium">52<span class="text-primary">K</span></h1>
+                            <p class="text-base font-normal text-third">success</p>
+                        </div>
+                        <div class="mr-4 lg:mr-8">
+                            <h1 class="text-2xl font-medium">14<span class="text-primary">M</span></h1>
+                            <p class="text-base font-normal text-third">transaction</p>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <label for="location" class="block text-base text-third font-normal">Location</label>
+                        <div class="mt-1">
+                            <input type="text" id="location" name="location" placeholder="Enter location"
+                                class="px-4 py-2 bg-[#F7F7F9] border border-[#F7F7F9] w-full lg:w-[360px] focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <button
+                            class="mt-5 py-2 text-base text-white transition duration-300 ease-in-out bg-secondary border border-secondary px-5 hover:bg-transparent hover:text-black hover:border-secondary hover:shadow-lg hover:shadow-[#FF9376]">Explore
+                            Now</button>
+                    </div>
+                </div>
+                <div class="w-full self-end mt-10 lg:-bottom-5 lg:mt-0 lg:w-1/2">
+                    <img src="assets/images/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero -->
+
+    <!-- Partner -->
+    <section class="partner mt-10 lg:mt-24">
+        <div class="container">
+            <div class="w-full flex flex-wrap justify-center items-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 px-4 lg:w-1/5 lg:p-5">
+                    <img src="assets/images/rosewood.svg" width="w-ful" alt="">
+                </div>
+                <div class="mb-12 px-4 py-5 lg:w-1/5">
+                    <img src="assets/images/oysho.svg" width="w-ful" alt="">
+                </div>
+                <div class="mb-12 px-4 py-5 lg:w-1/5">
+                    <img src="assets/images/pullandbear.svg" width="w-ful" alt="">
+                </div>
+                <div class="mb-12 px-4 py-5 lg:w-1/5">
+                    <img src="assets/images/jpmorgan.svg" width="w-full" alt="">
+                </div>
+                <div class="mb-12 px-4 py-5 lg:w-1/5">
+                    <img src="assets/images/marriot.svg" width="w-full" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Partner -->
+
+    <!-- Top -->
+    <section class="mt-10 lg:mt-20">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto mb-16 text-center justify-center">
+                    <h2 class="font-bold text-black text-2xl mb-4">Most People Go</h2>
+                    <p class="font-medium text-sm text-third mb-0 lg:text-lg">
+                        From nature to heart and becomes <br> all what we need to have</p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-4 px-5 lg:w-1/4">
+                    <div class="rounded-3xl">
+                        <img src="assets/images/lembang.png" alt="" width="w-full">
+                    </div>
+                    <h3 class="font-medium text-black text-base mt-5">Lembang, Bandung</h3>
+                    <p class="font-normal text-sm text-third mb-5">Start from $850K</p>
+                </div>
+                <div class="mb-4 px-5 lg:w-1/4">
+                    <div class="rounded-3xl">
+                        <img src="assets/images/centre.png" alt="" width="w-full">
+                    </div>
+                    <h3 class="font-medium text-black text-base mt-5">Angga Centre, Jakarta</h3>
+                    <p class="font-normal text-sm text-third mb-5">Start from $999K</p>
+                </div>
+                <div class="mb-4 px-5 lg:w-1/4">
+                    <div class="rounded-3xl">
+                        <img src="assets/images/ahya.png" alt="" width="w-full"">
+                    </div>
+                    <h3 class=" font-medium text-black text-base mt-5">Ahya, France</h3>
+                        <p class="font-normal text-sm text-third mb-5">Start from $1,250K</p>
+                    </div>
+                    <div class="mb-4 px-5 lg:w-1/4">
+                        <div class="rounded-3xl">
+                            <img src="assets/images/koko.png" alt="" width="w-full">
+                        </div>
+                        <h3 class="font-medium text-black text-base mt-5">Koko, Jamaica</h3>
+                        <p class="font-normal text-sm text-third mb-5">Start from $450K</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Top -->
+
+    <!-- Community -->
+    <section class="mt-10 lg:mt-20">
+        <div class="w-full self-start">
+            <div class="relative flex">
+                <img src="assets/images/rectangle_2.png" width="800px" alt="">
+                <div class="overlay flex">
+                    <div class="text-community mt-10 lg:mt-0 ">
+                        <h1 class="font-bold text-black text-2xl mb-4 lg:text-3xl">Become a part <br> of our community
+                        </h1>
+                        <p class="font-medium text-lg text-third mb-5 lg:text-sm">Grow and live together to pursue <br> happiness that
+                            we always dreaming of</p>
+                        <div class="flex">
+                            <img src="assets/images/googleplay.svg" class="gp" alt="">
+                            <img src="assets/images/appstore.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="lg:items-center lg:flex hidden">
+                        <img src="assets/images/user1.svg" class="mx-1" alt="">
+                        <img src="assets/images/user2.svg" alt="">
+                        <img src="assets/images/user3.svg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Community -->
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
